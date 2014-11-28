@@ -1,0 +1,32 @@
+html, body {
+  overflow: hidden;
+}
+
+
+.DlHMenu-spacer.first-menu-start {
+  width: 10px;
+}
+
+.DlVbox-spacer.menu_box_top_spacer {
+  height: 12px;
+}
+
+
+.Ymacs-Theme-light .Ymacs_Frame-focus .Ymacs-caret {
+  background-color: #000;
+  color: #fff;
+}
+
+.Ymacs-Theme-light .Ymacs_Frame-focus .Ymacs-current-line {
+  background-color: inherit;
+}
+
+
+.Ymacs-Theme-dark .Ymacs_Frame-focus .Ymacs-caret {
+  background-color: #fff;
+  color: #000;
+}
+
+.Ymacs-Theme-dark .Ymacs_Frame-focus .Ymacs-current-line {
+  background-color: inherit;
+}
