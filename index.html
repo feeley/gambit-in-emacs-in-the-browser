@@ -5,12 +5,9 @@
     <title>Gambit-in-emacs-in-the-browser</title>
     <link rel="stylesheet" type="text/css" href="ymacs/test/dl/new-theme/default.css" />
     <link rel="stylesheet" type="text/css" href="ymacs/src/css/ymacs.css" />
-    <link rel="stylesheet" type="text/css" href="emacs.css" />
+    <link rel="stylesheet" type="text/css" href="gambit-in-emacs-in-the-browser.css" />
   </head>
   <body contenteditable="yes">
-    <center style="margin-top: 10em" id="x-loading">
-      <h1><tt>.oO[ loading ]Oo.</tt></h1>
-    </center>
     <script>
       window.Dynarch_Base_Url = "ymacs/test/dl";
       window.YMACS_SRC_PATH = "ymacs/src/js/";
@@ -34,16 +31,17 @@
     <script src="ymacs/src/js/ymacs-tokenizer.js"></script>
     <script src="ymacs/src/js/ymacs-mode-paren-match.js"></script>
     <script src="ymacs/src/js/ymacs-mode-lisp.js"></script>
+    <script src="ymacs/src/js/ymacs-mode-scheme.js"></script>
     <script src="ymacs/src/js/ymacs-mode-js.js"></script>
     <script src="ymacs/src/js/ymacs-mode-xml.js"></script>
     <script src="ymacs/src/js/ymacs-mode-css.js"></script>
     <script src="ymacs/src/js/ymacs-mode-markdown.js"></script>
 
-    <script src="mode-repl.js"></script>
-    <script src="emacs.js"></script>
-
-    <script src="intf.js"></script>
+    <script src="common.js"></script>
+    <script src="gambit-in-emacs-in-the-browser.js"></script>
     <script src="gsi.js"></script>
+
+    <script>setupEmacs();</script>
 
   </body>
 </html>
